@@ -68,7 +68,7 @@ In practice, works well:
 ## 8: Use stability tricks from RL
 
 - Experience Replay
-  - Keep a replay buffer of past generations and occassionally show them
+  - Keep a replay buffer of past generations and occasionally show them
   - Keep checkpoints from the past of G and D and occassionaly swap them out for a few iterations
 - All stability tricks that work for deep deterministic policy gradients
 - See Pfau & Vinyals (2016)
@@ -102,7 +102,7 @@ while lossG > B:
 
 ## 12: If you have labels, use them
 
-- if you have labels available, training the discriminator to also classify the samples: auxillary GANs
+- if you have labels available, training the discriminator to also classify the samples: auxiliary GANs
 
 ## 13: Add noise to inputs, decay over time
 
